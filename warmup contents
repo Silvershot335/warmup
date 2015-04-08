@@ -1,0 +1,27 @@
+bind "p" "bot_add ct"
+
+bind "t" "noclip"
+
+bind "o" "bot_place" 
+
+bind "\" "give weapon_hegrenade;give weapon_flashbang;give weapon_smokegrenade;give weapon_molotov;give weapon_decoy;sv_infinite_ammo 2"
+
+bind "mouse3" "cast_ray"
+mp_warmup_end 
+mp_startmoney 16000
+mp_roundtime_defuse 60
+mp_roundtime 60
+sv_cheats 1
+sv_infinite_ammo 1
+bot_kick
+mp_limitteams 0
+mp_freezetime 1
+mp_autoteambalance 0
+mp_restartgame 1
+mp_respawn_on_death_ct 1
+mp_respawn_on_death_t 1
+sv_showimpacts 2
+sv_showimpacts_time .1
+mp_ct_default_primary weapon_ak47
+mp_t_default_primary weapon_ak47
+mp_restartgame 1
